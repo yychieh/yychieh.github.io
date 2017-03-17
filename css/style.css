@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400');
 table,
 table td,
 table th {
@@ -6,4 +7,68 @@ table th {
     height: 50px;
     text-align: center;
     border-collapse: collapse;
+}
+
+h1 {
+    color: darkslategrey;
+    font-family: 'Kalam', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.btn:link {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 10px;
+    color: #58bf9c;
+    padding: 8px 50px;
+    background-color: #a8f2d9;
+}
+
+.btn:hover {
+    color: aliceblue;
+    letter-spacing: 10px;
+    padding: 8px 50px;
+    background-color: #58bf9c;
+}
+
+.btn:active {
+    color: aliceblue;
+    letter-spacing: 10px;
+    padding: 8px 50px;
+    background-color: #448d74;
+}
+
+
+}
+h2.title {
+    color: darkcyan;
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+p.sub-title {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+span.job-year {
+    font-family: 'Kalam', cursive;
+    font-weight: 400
+}
+span.job-experience,
+span.job-company {
+    font-family: 'Kalam', cursive;
+    font-weight: 300
+}
+h2.project-name {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+}
+p.read-more {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
 }
